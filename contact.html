@@ -1,3 +1,67 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Contact | Joseph Famous</title><link rel="stylesheet" href="assets/css/style.css"></head><body>
-<header class="site-header"><a class="brand" href="index.html">JF<span>.</span></a><button class="menu-toggle" aria-label="Open navigation">☰</button><nav aria-label="Primary"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="planner.html">Planner</a><a class="active" href="contact.html">Contact</a></nav></header>
-<main class="page"><section class="page-intro"><p class="eyebrow">CONTACT</p><h1>Let’s make an impact.</h1><p class="lead">Send a message for collaboration, infrastructure work, or a professional conversation.</p></section><section class="contact-layout"><aside><h2>Find me online</h2><p><a href="mailto:josephfamous5@gmail.com">josephfamous5@gmail.com</a></p><p><a href="tel:+2348072452405">+234 807 245 2405</a></p><p>Lagos, Nigeria</p><p><a href="https://linkedin.com/in/joseph-famous" target="_blank" rel="noopener">LinkedIn profile ↗</a></p></aside><form id="contact-form" novalidate><label for="name">Name</label><input id="name" name="name" type="text"><label for="email">Email address</label><input id="email" name="email" type="email"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" inputmode="numeric"><label for="message">Message</label><textarea id="message" name="message" rows="5"></textarea><button class="button" type="submit">Send message</button><p id="contact-status" class="form-message" aria-live="polite"></p></form></section></main><footer>© <span class="year"></span> Joseph Famous. Built for academic growth.</footer><script src="assets/js/portfolio-data.js"></script><script src="assets/js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <div class="logo">JOSEPH FAMOUS</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="planner-box card">
+      <h2>Get In Touch</h2>
+      <p style="margin-bottom: 1.5rem;">Fill out this form to send me a direct message. All fields are required!</p>
+
+      <form id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your full name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="example@domain.com">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" placeholder="Digits only (e.g., 08012345678)">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <!-- Div for displaying errors or validation status -->
+      <div id="error-box" class="error-message"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 MIVA Open University | Sponsored By Arxia Core</p>
+  </footer>
+
+  <!-- Link the JS script -->
+  <script src="script.js"></script>
+</body>
+</html>
