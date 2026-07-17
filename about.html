@@ -1,3 +1,119 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>About | Joseph Famous</title><link rel="stylesheet" href="assets/css/style.css"></head><body>
-<header class="site-header"><a class="brand" href="index.html">JF<span>.</span></a><button class="menu-toggle" aria-label="Open navigation">☰</button><nav aria-label="Primary"><a href="index.html">Home</a><a class="active" href="about.html">About</a><a href="projects.html">Projects</a><a href="planner.html">Planner</a><a href="contact.html">Contact</a></nav></header>
-<main class="page"><section class="page-intro"><p class="eyebrow">ABOUT ME</p><h1>Engineering systems with clarity and care.</h1><p id="about-bio" class="lead"></p></section><section class="section"><p class="eyebrow">EDUCATION</p><div class="table-wrap"><table><thead><tr><th>Qualification</th><th>Institution</th><th>Period</th><th>Focus</th></tr></thead><tbody id="education-table"></tbody></table></div></section><section class="section two-column"><div><p class="eyebrow">CAREER ASPIRATION</p><h2 id="aspiration"></h2></div><div><p class="eyebrow">TECHNICAL SKILLS</p><ul id="skills-list" class="tag-list"></ul></div></section><section class="section"><p class="eyebrow">INTERESTS</p><ul id="interests-list" class="interest-list"></ul></section></main><footer>© <span class="year"></span> Joseph Famous. Built for academic growth.</footer><script src="assets/js/portfolio-data.js"></script><script src="assets/js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <div class="logo">JOSEPH FAMOUS</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>All About Me</h2>
+
+    <section class="card" style="margin-bottom: 2rem;">
+      <h3>Educational Background</h3>
+      <!-- EDIT START: UPDATE THIS TABLE WITH YOUR ACTUAL EDUCATION TIMELINE -->
+      <table>
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Institution</th>
+            <th>Qualification / Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2025 - Present</td>
+            <td>MIVA Open University</td>
+            <td>B.Sc. Cybersecurity (In Progress)</td>
+          </tr>
+          <tr>
+            <td>2022 - 2026</td>
+            <td>European University Of Lefke</td>
+            <td>B.Sc. Computer Engineering</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- EDIT END -->
+    </section>
+
+    <div class="grid-2">
+      <section class="card">
+        <h3>Career Aspirations</h3>
+        <!-- EDIT START: REPLACE WITH YOUR GOALS -->
+        <p>My ultimate career objective is to pioneer the field of Secure Robotics and Automated Systems. Having a strong foundation in both Computer Engineering and Cyber Defense, I aspire to scale my startup, Arxia Core, into a premier defender of critical IT infrastructure for corporate and government assets. Long-term, I aim to lead innovations in hardware-level security, ensuring that the next generation of autonomous machines and robotics are built to be inherently resilient against weaponization and cyber threats</p>
+        <!-- EDIT END -->
+      </section>
+
+      <section class="card">
+        <h3>Professional Soft Skills</h3>
+        <!-- EDIT START: REPLACE WITH YOUR ACTUAL TECHNICAL SKILLS -->
+        <ul>
+          <li>Acute Attention to Detail: Essential for identifying subtle vulnerabilities and system anomalies.</li>
+          <li>Adaptive Problem-Solving: Able to think like an attacker to defend critical systems in real-time.</li>
+          <li>Effective Time Management: Proven ability to balance remote enterprise work, startup operations, and academic excellence.</li>
+          <li>Fast-Paced Resilience: Thriving in high-pressure environments where rapid adaptability is required.</li>
+        </ul>
+        <!-- EDIT END -->
+      </section>
+    </div>
+
+      <section class="card">
+        <h3>Core Technical Competencies</h3>
+        <!-- EDIT START: REPLACE WITH YOUR ACTUAL TECHNICAL SKILLS -->
+        <ul>
+          <li>IT Infrastructure & Architecture: System maintenance, Google Cloud Platform (GCP) administration, deployment strategies, and hardware/software optimization.</li>
+          <li>Systems Management & Security: Network monitoring, vulnerability mitigation, compliance auditing, threat detection, and ticketing system engineering.</li>
+          <li>Process Improvement: Workflow automation, micro-interventions, and rapid incident/ticket resolution strategies.</li>
+          <li>Certifications & Frameworks: ISC2 (Cybersecurity), Cisco NetAcad, and foundational Computer Engineering principles.</li>
+        </ul>
+        <!-- EDIT END -->
+      </section>
+    </div>
+
+    <section class="card" style="margin-top: 2rem;">
+      <h3>Hobbies & Interests</h3>
+      <!-- EDIT START: REPLACE WITH YOUR PERSONAL HOBBIES -->
+      <ul>
+        <li>Skating & Walking: My favorite ways to disconnect from the screen, clear my head, and find physical momentum.</li>
+        <li>Puzzles & Strategy Gaming: I enjoy anything that challenges my tactical thinking and forces me to decode complex patterns.</li>
+        <li>Reading: Constantly expanding my horizons on tech history, security trends, and philosophy.</li>
+      </ul>
+      <!-- EDIT END -->
+    </section>
+
+    <!-- MANDATORY MULTIMEDIA COMPONENT -->
+    <section class="card" style="margin-top: 2rem;">
+      <h3>The Architecture Of The Digital World....</h3>
+      <p>A short sample Video:</p>
+      <!-- EDIT START: REPLACE THE SRC LINK WITH YOUR OWN LOCAL AUDIO/VIDEO PATH IF YOU WISH -->
+      <video controls style="width: 100%; max-width: 500px; border-radius: 8px;">
+        <source src="images/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <!-- EDIT END -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 MIVA Open University | Sponsored By Arxia Core </p>
+  </footer>
+
+</body>
+</html>
