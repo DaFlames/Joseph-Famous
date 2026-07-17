@@ -1,3 +1,49 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Academic Planner | Joseph Famous</title><link rel="stylesheet" href="assets/css/style.css"></head><body>
-<header class="site-header"><a class="brand" href="index.html">JF<span>.</span></a><button class="menu-toggle" aria-label="Open navigation">☰</button><nav aria-label="Primary"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a class="active" href="planner.html">Planner</a><a href="contact.html">Contact</a></nav></header>
-<main class="page"><section class="page-intro"><p class="eyebrow">ACADEMIC PLANNER</p><h1>Make every task count.</h1><p class="lead">Add coursework, study sessions, or deadlines. Your list is saved in this browser.</p></section><section class="planner-card"><form id="task-form"><label for="task-input">New task</label><div class="task-row"><input id="task-input" required maxlength="120" placeholder="e.g., Review incident-response notes"><button class="button" type="submit">Add task</button></div></form><p id="task-status" class="form-message" aria-live="polite"></p><ul id="task-list" class="task-list"></ul></section></main><footer>© <span class="year"></span> Joseph Famous. Built for academic growth.</footer><script src="assets/js/portfolio-data.js"></script><script src="assets/js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <div class="logo">JOSEPH FAMOUS</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="planner-box card">
+      <h2>Interactive Academic Planner</h2>
+      <p style="margin-bottom: 1rem;">Keep track of your study targets, module deadlines, and course goals.</p>
+
+      <!-- Input Group to Add Task -->
+      <div class="input-group">
+        <input type="text" id="task-input" placeholder="Enter a task (e.g. Study COS 106 Module 4)...">
+        <button id="add-task-btn">Add Task</button>
+      </div>
+
+      <!-- Live Tasks will generate inside this list dynamically using JavaScript -->
+      <ul id="task-list-container" class="task-list"></ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 MIVA Open University | Sponsored By Arxia Core</p>
+  </footer>
+
+  <!-- Link the JS script -->
+  <script src="script.js"></script>
+</body>
+</html>
