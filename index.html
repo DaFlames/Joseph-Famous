@@ -1,16 +1,64 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Joseph Famous - student portfolio and academic management hub.">
-  <title>Joseph Famous | Portfolio</title><link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Student Portfolio - Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header"><a class="brand" href="index.html">JF<span>.</span></a><button class="menu-toggle" aria-label="Open navigation">☰</button><nav aria-label="Primary"><a class="active" href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="planner.html">Planner</a><a href="contact.html">Contact</a></nav></header>
-  <main>
-    <section class="hero"><div class="hero-copy"><p class="eyebrow">STUDENT PORTFOLIO · LAGOS, NIGERIA</p><h1>Building dependable systems for a connected world.</h1><p id="home-intro" class="lead"></p><div class="actions"><a class="button" href="projects.html">Explore my work</a><a class="text-link" href="contact.html">Get in touch →</a></div></div><img class="profile-image" src="assets/images/profile-pic.svg" alt="Placeholder profile photograph for Joseph Famous"></section>
-    <section class="section"><div class="section-heading"><p class="eyebrow">AT A GLANCE</p><h2>Focused on secure, resilient infrastructure.</h2></div><div id="home-stats" class="stat-grid"></div></section>
-    <section class="section split-panel"><div><p class="eyebrow">FEATURED PROJECT</p><h2 id="featured-title"></h2><p id="featured-description"></p><a class="text-link" href="projects.html">View project details →</a></div><img src="assets/images/project-1.svg" alt="Illustration placeholder for a network deployment project"></section>
-    <section class="section media-section"><p class="eyebrow">LEARN & GROW</p><h2>A small study soundtrack</h2><p>Use this placeholder audio control to meet the multimedia requirement. Replace the source when you have an audio file.</p><audio controls><source src="assets/media/study-ambience.mp3" type="audio/mpeg">Your browser does not support audio.</audio></section>
-  </main><footer>© <span class="year"></span> Joseph Famous. Built for academic growth.</footer><script src="assets/js/portfolio-data.js"></script><script src="assets/js/main.js"></script>
-</body></html>
+
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <!-- EDIT START: REPLACE WITH YOUR INITIALS OR LOGO TEXT -->
+        JOSEPH FAMOUS
+        <!-- EDIT END -->
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="grid-2">
+      <div>
+        <!-- EDIT START: REPLACE WITH YOUR NAME AND A WELCOME MESSAGE -->
+        <h1>Hi There! I'm Joseph Famous</h1>
+        <h3>Computer Engineer, a Cybersecurity student at Miva Open University, and the founder of Arxia Core.</h3>
+        <p>I don’t just love building the future—I'm dedicated to securing it.</p>
+        <!-- EDIT END -->
+      </div>
+      
+      <div>
+        <!-- EDIT START: REPLACE THE IMAGE URL WITH A DIRECT PATH TO YOUR IMAGE (e.g. assets/images/profile.jpg) -->
+        <img class="profile-img" src="images/profile.jpeg" alt="Student Profile Picture">
+        <!-- EDIT END -->
+      </div>
+    </div>
+
+    <hr style="margin: 2rem 0; border: 0; border-top: 1px solid #ccc;">
+
+    <section class="card">
+      <h2>Brief Biography</h2>
+      <!-- EDIT START: REPLACE THIS PARAGRAPH WITH YOUR REAL BIOGRAPHY -->
+      <p>My journey into tech started with a childhood fascination with robotics, heavily inspired by the inventions of Iron Man. I knew early on that I wanted to build complex, intelligent machines. Thanks to a supportive foundation, I jumped into the field early—completing a year of intensive Computer Engineering training in 2020, followed by years of hands-on industry work both on-site and remotely while pursuing my Bachelor’s degree in Computer Engineering in Northern Cyprus.</p>
+      <p>While my university years opened my eyes to the incredible scope of engineering, my true turning point came during my senior year. A conversation about the vulnerability of robotics made me realize a critical truth: building advanced technology is pointless if it can be weaponized by others.</p>
+      <p>Determined to bridge the gap between physical hardware and digital defense, I earned certifications from ISC2 and Cisco NetAcad, and am currently deep-ening my expertise in Cybersecurity at Miva Open University. To bring this intersection of hardware engineering and advanced security to the real world, I founded Arxia Core, a startup focusing on IT Infrastructure and Cybersecurity. I will always be a robotics engineer at heart, but today, my mission is protecting the individuals, corporations, and governments utilizing the tech of tomorrow.</p>
+      <!-- EDIT END -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 MIVA Open University | Sponsored By Arxia Core</p>
+  </footer>
+
+</body>
+</html>
