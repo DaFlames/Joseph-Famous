@@ -44,4 +44,4 @@ It serves as a personal academic portfolio and student management platform, show
 
 1. Clone the repository to your desktop machine:
    ```bash
-   git clone [https://github.com/your-username/miva-student-portfolio.git](https://github.com/your-username/miva-student-portfolio.git)
+   git clone [https://github.com/DaFlames/miva-student-portfolio.git](https://github.com/DaFlames/miva-student-portfolio.git)
