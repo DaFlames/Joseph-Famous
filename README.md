@@ -1,19 +1,47 @@
-# Joseph Famous Portfolio
+# Responsive Student Portfolio & Academic Management Website
 
-This is a responsive, multi-page student portfolio and academic planner. Open `index.html` in a browser, or publish the repository with GitHub Pages.
+## 📌 Project Overview
+This project is a fully functional, responsive multi-page web application developed as the Practical Term Project for **COS 106: Introduction to Web Technologies** at **MIVA Open University**. 
 
-## Update content
+It serves as a personal academic portfolio and student management platform, showcasing a modern, professional layout built entirely from scratch using semantic HTML5, adaptive CSS3, and interactive JavaScript.
 
-1. Open `assets/js/portfolio-data.js`. The comments at the top explain the editable fields. Update the biography, education, skills, interests, and projects there; the pages update automatically.
-2. Put your profile photo in `assets/images/` and either replace `profile-pic.svg` or change the image path in the relevant HTML. Do the same for `project-1.svg`, `project-2.svg`, and `project-3.svg`. Recommended replacement names: `profile-pic.jpg`, `project-1.jpg`, `project-2.jpg`, `project-3.jpg`.
-3. If you use the recommended `.jpg` files, update the four image paths in `index.html` and `assets/js/portfolio-data.js` from `.svg` to `.jpg`.
-4. Add an audio file at `assets/media/study-ambience.mp3` to activate the homepage audio player.
-5. Add project links in each project's `link` property. `#` is a temporary simulated link.
+---
 
-## Checklist before publishing
+## 🚀 Features
 
-- [ ] Replace the photo and project placeholder images.
-- [ ] Replace the two placeholder projects with real work.
-- [ ] Add a real audio file or remove the audio section if your assessor permits.
-- [ ] Update the project links.
-- [ ] Test the planner and contact validation on a phone-sized screen.
+### 1. Homepage
+* A welcoming, professional introduction layout.
+* Contains a high-quality student profile picture, an introductory message, and a brief biography.
+* Fully semantic structural elements with intuitive header navigation.
+
+### 2. About Me Page
+* Detailed timeline outlining my educational history formatted with a clean, responsive table.
+* Clear presentation of technical skill sets, career goals, and hobbies.
+* Embedded multimedia player demonstrating media handling capabilities.
+
+### 3. Projects Page
+* A responsive, beautifully organized multi-column project showcase layout built with CSS Grid/Flexbox.
+* Spotlights at least three sample applications complete with titles, screenshots, descriptions, and mock deployment links.
+
+### 4. Academic Planner Page
+* A highly interactive application engine managed directly via JavaScript operations.
+* **Dynamic Functionality:** Supports seamless dynamic entry creation, state updates (toggling complete/undo styles), and task deletion using array filtering and DOM manipulation.
+
+### 5. Contact Page
+* A complete modern client communication web form capturing Name, Email, Phone Number, and Message.
+* **Strict JavaScript Validation:** Prevents empty submissions, verifies exact standard email regular expressions, and strictly checks that phone numbers only consist of numbers.
+
+---
+
+## 🛠️ Technical Stack
+* **Markup:** HTML5 (Semantic Structure)
+* **Styling:** CSS3 (Flexbox, CSS Grid, Media Queries, Custom CSS Variables)
+* **Scripting:** Modern Vanilla JavaScript (DOM manipulation, Regex, Event Observers, Arrays)
+
+---
+
+## ⚙️ How to Run This Project Locally
+
+1. Clone the repository to your desktop machine:
+   ```bash
+   git clone [https://github.com/your-username/miva-student-portfolio.git](https://github.com/your-username/miva-student-portfolio.git)
